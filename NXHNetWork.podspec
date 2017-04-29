@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.platform             = :ios, '7.0'
   s.source               = { :git => 'https://github.com/niuxinghua/NXHNetWork.git', :tag => s.version }
   s.source_files          =  'Net', 'Net/**/*.{h,m}'
-  s.dependency 'AFNetWorking'
+  s.dependency 'AFNetworking', '~> 3.0' 
 
 end
